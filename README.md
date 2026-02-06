@@ -1,4 +1,5 @@
 # CBPlus
 
-I wrote this in a single night because I wanted to.
+![comparison](https://i.ibb.co/ksXPpBTn/Tm-IV433v3-W.png)
+### (Clockwise from top left using default settings): Protanopia, Deuteranopia, Tritanopia, Grayscale
 
