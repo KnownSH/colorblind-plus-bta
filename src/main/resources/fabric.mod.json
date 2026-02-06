@@ -1,49 +1,43 @@
 {
 	"schemaVersion": 1,
-	"id": "examplemod",
+	"id": "cbplus",
 	"version": "${version}",
 
-	"name": "Example Mod",
-	"description": "This mod aims to help new BTA modders.",
+	"name": "CBPlus",
+	"description": "More complex colorblindness settings for BTA.",
 	"authors": [
-		"Turnip Labs"
+		"Knownser"
 	],
 	"contact": {
 		"homepage": "",
 		"sources": ""
 	},
 
-	"license": "CC0-1.0",
+	"license": "MIT",
 
 	"environment": "*",
 	"entrypoints": {
 		"main": [
 			{
 				"adapter": "kotlin",
-				"value": "turniplabs.examplemod.ExampleMod"
+				"value": "derg.cbplus.CBPlus"
 			}
 		],
 		"beforeGameStart": [
 			{
 				"adapter": "kotlin",
-				"value": "turniplabs.examplemod.ExampleMod"
+				"value": "derg.cbplus.CBPlus"
 			}
 		],
 		"afterGameStart": [
 			{
 				"adapter": "kotlin",
-				"value": "turniplabs.examplemod.ExampleMod"
-			}
-		],
-		"recipesReady": [
-			{
-				"adapter": "kotlin",
-				"value": "turniplabs.examplemod.ExampleMod"
+				"value": "derg.cbplus.CBPlus"
 			}
 		]
 	},
 	"mixins": [
-		"examplemod.mixins.json"
+      "cbplus.mixins.json"
 	],
 
 	"depends": {

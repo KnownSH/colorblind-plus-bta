@@ -1,0 +1,9 @@
+gui.options.page.accessibility.category.colorblindness=Color Blindness
+options.colorblindnessSeverity=Severity
+options.colorblindnessSkew=Skew
+options.colorblindnessFix=Color Blindness Type
+options.cb.skew.none=None
+options.cb.skew.protanopia=%1$d%% Green %2$d%% Blue
+options.cb.skew.deuteranopia=%1$d%% Red %2$d%% Blue
+options.cb.skew.tritanopia=%1$d%% Red %2$d%% Green
+options.cb.skew.grayscale=None
