@@ -18,22 +18,7 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			{
-				"adapter": "kotlin",
-				"value": "derg.cbplus.CBPlus"
-			}
-		],
-		"beforeGameStart": [
-			{
-				"adapter": "kotlin",
-				"value": "derg.cbplus.CBPlus"
-			}
-		],
-		"afterGameStart": [
-			{
-				"adapter": "kotlin",
-				"value": "derg.cbplus.CBPlus"
-			}
+			"derg.cbplus.CBPlus"
 		]
 	},
 	"mixins": [
@@ -42,7 +27,6 @@
 
 	"depends": {
 		"fabricloader": ">=${fabricloader}",
-		"fabric-language-kotlin": ">=${fabric_language_kotlin}",
 		"halplibe": ">=${halplibe}",
 		"minecraft": "*",
 		"java": ">=${java}"

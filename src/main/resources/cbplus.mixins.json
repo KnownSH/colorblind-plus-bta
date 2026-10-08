@@ -10,8 +10,7 @@
   },
   "mixins": [],
   "client": [
-    "GameSettingsMixin",
     "OptionsPagesMixin",
-    "ShadersMixin"
+    "ShaderHelperMixin"
   ]
 }
